@@ -1,0 +1,133 @@
+.todoapp {
+  
+  min-height: 100vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 2.5vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  max-height: 100vh;
+  border: 1px solid red;
+}
+.banner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner h3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  font-size: 20vh;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  line-height: 100vh;
+  mix-blend-mode: screen;
+}
+.item {
+  max-height: auto;
+  min-width: 26%;
+  background-color: azure;
+  word-wrap: break-word;
+  margin-top: 2rem;
+}
+
+.submit {
+  margin-top: 1rem;
+  width: 20rem;
+  height: 3rem;
+  font-size: 3vh;
+  background-color: azure;
+}
+.add-button {
+  background-color: azure;
+  width: 90px;
+  height: 51px;
+  outline: none;
+  border: none;
+}
+.input-login {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 900px;
+  width: 500px;
+  height: 500px;
+}
+.input-login input,
+input {
+  width: 390px;
+  height: 50px;
+  margin: 0.5rem;
+  background-color: azure;
+}
+
+.addtask-input {
+  outline: none;
+  border: none;
+}
+.flex-item{
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.item-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-button >button {
+  margin:1rem;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
